@@ -9,6 +9,7 @@ function su_mt_user() {
 }
 
 chown android:android /opt/android-sdk-linux
+chmod 0777 /opt/android-sdk-linux
 
 printenv
 
